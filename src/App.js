@@ -4,7 +4,7 @@ import './style.css';
 const App = () => {
   const element1Ref = useRef(null);
   const element2Ref = useRef(null);
-  console.log(process.env.NAME);
+  console.log(process.env.REACT_APP_NAME);
 
   useEffect(() => {
     if (element1Ref.current && element2Ref.current) {
